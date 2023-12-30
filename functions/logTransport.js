@@ -10,7 +10,7 @@ const logTransport = async (
   try {
     const axiosInstance = axios.create(axiosOptions);
     const data = fs.readFileSync(fileLocation, "utf8").toString();
-    const response = await axiosInstance.post(path, data);
+    const response = await axiosInstance.post(path, { log: data });
     const responseData = await response.data;
     return { success: true, response: responseData };
   } catch (error) {
