@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/thakurthegr8/thakurthegr8-logger-utils#readme",
   "dependencies": {
+    "axios": "^1.6.3",
     "pino": "^8.17.2"
   }
 }
