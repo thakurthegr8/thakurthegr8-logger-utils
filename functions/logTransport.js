@@ -1,6 +1,6 @@
 const { default: axios } = require("axios");
 const fs = require("fs");
-import { LOGTRANSPORTER_PARAMS } from "../constants";
+const { LOGTRANSPORTER_PARAMS } = "../constants";
 
 const logTransport = async (
   axiosOptions = LOGTRANSPORTER_PARAMS.axiosOptions,
