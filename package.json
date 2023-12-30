@@ -1,14 +1,34 @@
 {
-  "name": "thakurthegr8-logger-utils",
+  "name": "@thakurthegr8/logger-utils",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thakurthegr8/thakurthegr8-logger-utils.git"
+  },
+  "keywords": [
+    "npm",
+    "publish",
+    "package",
+    "registry"
+  ],
+  "author": {
+    "name": "Rahul Thakur",
+    "email": "rt040371@gmail.com",
+    "url": "https://thakurthegr8.shortr.in"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thakurthegr8/thakurthegr8-logger-utils/issues"
+  },
+  "homepage": "https://github.com/thakurthegr8/thakurthegr8-logger-utils#readme",
   "dependencies": {
     "pino": "^8.17.2"
   }
